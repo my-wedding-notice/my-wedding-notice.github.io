@@ -64,10 +64,12 @@ iframe {
 /*h1見出しタグの設定
 ---------------------------------------------------------------------------*/
 h1 {
+	clear: both;
 	border-bottom:3px #9c9c93 solid;
 	font-size: 25pt;
 	color: #9c9c93;
-	margin-bottom: 1em;
+	margin-top: 10px;
+	margin-bottom: 5px;
 }
 
 /*h2見出しタグの設定
@@ -350,6 +352,7 @@ header #logo img {
 	/*角丸のサイズ。50%にすると円形になる。正方形がいいなら、この１行削除する。*/
 }
 .inline-figure {
+	float: right;
 	align-self: center;
 }
 
